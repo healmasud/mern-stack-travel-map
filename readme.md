@@ -1,3 +1,3 @@
 # [work in progress]
 
-Mern stack travel map application
+MERN stack travel map application
