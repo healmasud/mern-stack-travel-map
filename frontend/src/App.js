@@ -3,7 +3,6 @@ import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { useState, useEffect } from "react";
 import { Room, Star } from "@material-ui/icons";
 import axios from "axios";
-import { format } from "timeago.js";
 import "./app.css";
 import Register from "./components/Register";
 import Login from "./components/Login";
@@ -105,6 +104,7 @@ function App() {
             </Marker>
             {p._id === currentPlaceId && (
               <Popup
+                key={p._id}
                 latitude={p.lat}
                 longitude={p.long}
                 closeButton={true}
@@ -125,7 +125,7 @@ function App() {
                   <span className="username">
                     Created by <b>{p.username}</b>
                   </span>
-                  <span className="date">{format(p.createdAt)}</span>
+                  <span className="date">{p.createdAt}</span>
                 </div>
               </Popup>
             )}
