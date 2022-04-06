@@ -40,10 +40,10 @@ MONGO_URL =
 
 ![Pic](https://raw.githubusercontent.com/healmasud/mern-stack-travel-map/master/github-overview/home.png)
 
-## Home
+## Register
 
 ![Pic](https://raw.githubusercontent.com/healmasud/mern-stack-travel-map/master/github-overview/register.png)
 
-## Home
+## Login
 
 ![Pic](https://raw.githubusercontent.com/healmasud/mern-stack-travel-map/master/github-overview/login.png)
