@@ -6,7 +6,7 @@ An travel map application where user can register, login and save their favourit
 
 - Node provides the backend environment for this application
 - Express middleware is used to handle requests, routes
-- MongoDB provides the database
+- Mongoose schemas to model the application data
 - React for displaying UI components
 - MapBox provides the mapping functionalities
 
