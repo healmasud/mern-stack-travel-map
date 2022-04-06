@@ -37,6 +37,7 @@ MONGO_URL =
 - [Node](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
 - [MongoDB](https://mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
 - [React](https://reactjs.org/)
 - [Webpack](https://webpack.js.org/)
 
