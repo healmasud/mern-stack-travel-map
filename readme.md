@@ -10,6 +10,10 @@ An travel map application where user can register, login and save their favourit
 - React for displaying UI components
 - MapBox provides the mapping functionalities
 
+## Live preview
+
+https://mern-stack-travel-map.herokuapp.com/
+
 ## Install Dependencies
 
 **For Backend** - `cd backend` `npm install` `npm start`
